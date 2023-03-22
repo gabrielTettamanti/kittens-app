@@ -1,5 +1,5 @@
 html {
-    background-color: black;
+    background-color: #254441;
 }
     main {
         display: flex;
@@ -10,7 +10,7 @@ html {
         max-width: 800px;
         margin: auto;
         font-family: system-ui;
-        color: white;
+        color: #F2F4F3;
     }
         div {
             display: flex;
