@@ -1,0 +1,38 @@
+html {
+    background-color: black;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    font-family: system-ui;
+    color: white;
+}
+    div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 400px;
+        margin: auto;
+    }
+        button {
+            outline: none;
+            border: 5px solid lightblue;
+            background-color: lightblue;
+            font-weight: bold;
+            padding: 3px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+        button::hover {
+            background-color: blue;
+        }
+    img {
+        max-width: 800px;
+        max-height: 60vh;
+        height: auto;
+    }
